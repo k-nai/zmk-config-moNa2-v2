@@ -65,7 +65,6 @@
 // Overrides for the input listener node
 &trackball_central_listener {
     status = "okay";
-    compatible = "zmk,input-listener";
     device = <&trackball_central>;
 
     scroller {
